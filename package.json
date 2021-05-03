@@ -1,0 +1,9 @@
+{
+  "name": "svelte-animation-store",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "svelte": "^3.x"
+  }
+}
