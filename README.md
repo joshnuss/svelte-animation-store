@@ -5,12 +5,12 @@ A store that is based on Svelte's [tweened store](https://svelte.dev/docs#tweene
 
 - `pause()`: freeze the store at the current value.
 - `reset()`: resets the store's value back to the last set point.
-- `continue()`: play on from a pause.
+- `continue()`: play on from a paused state.
 - `reverse()`: play in reverse.
 - `replay()`: go back to start, and play to last set point.
-- `accelerate(speed)`: change speed of animation.
+- `accelerate(speed)`: adjust the speed of the animation.
 
-Inherited from `writable()`:
+Functionality inherited from `writable()`:
 
 - `set(value)`: works the same as a `writable` store.
 - `update(callback)`: works the same as a `writable` store.
