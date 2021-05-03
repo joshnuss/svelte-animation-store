@@ -3,7 +3,7 @@ Svelte Animation Store
 
 A store that is based on Svelte's [tweened store](https://svelte.dev/docs#tweened), with some additional functionality:
 
-- `pause()`: freezed the store at the current value.
+- `pause()`: freeze the store at the current value.
 - `reset()`: resets the store's value back to the last set point.
 - `continue()`: play on from a pause.
 - `reverse()`: play in reverse.
