@@ -48,7 +48,7 @@ export function animation(initial, options={}) {
     return set(newValue, adjustedOptions)
   }
 
-  store.speed = (newSpeed) => {
+  store.accelerate = (newSpeed) => {
     adjustedOptions.speed = newSpeed
     adjustedOptions.duration = duration / newSpeed
 
