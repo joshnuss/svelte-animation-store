@@ -10,7 +10,7 @@ A store that is based on Svelte's [tweened store](https://svelte.dev/docs#tweene
 - `replay()`: go back to start, and play to last set point.
 - `accelerate(speed)`: change speed of animation.
 
-Inherited from `tweened()`:
+Inherited from `writable()`:
 
 - `set(value)`: works the same as a `writable` store.
 - `update(callback)`: works the same as a `writable` store.
